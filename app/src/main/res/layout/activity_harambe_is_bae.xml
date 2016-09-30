@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cjd38.lab04.harambeIsBae">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ooooooo…. Harambe (Harambe) We miss you, we want you to come back.\n\nOoooooo…. Harambe (Harambe) You were so big and strong and ever since you’re gone (I can’t sleep) (life just stays the same without you) Without you. (without you) \n\nWhen I woke up on the 28th of May I looked on the Tv with tears running down my cheeks.\n\nOoooooooooooo… I’ll miss you Harambe I wish they took that mothers life instead.\n\nHarambe Harambe (Harambe) I’ll miss you Harambe why did you go!\n\nHarambe, Harambe (Harambe) I want you to come back is that so much to ask.\n\nHarambe (Harambe)  \n\n1999-2016 HARAMBE"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>
