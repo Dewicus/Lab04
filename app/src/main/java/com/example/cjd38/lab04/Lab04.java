@@ -1,22 +1,26 @@
 package com.example.cjd38.lab04;
 /*
- * Lab 4 for cs 262
+ * Lab 5 for cs 262
  *
  * @author: Cameron Dewey
- * @
+ * @version 1 10-27-2016
  */
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.content.Intent;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Lab04 extends AppCompatActivity {
+
+    public static TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lab04);
+        setContentView(R.layout.activity_lab05);
+        textView = (TextView) findViewById(R.id.textView);
     }
 
     //makes the menu
